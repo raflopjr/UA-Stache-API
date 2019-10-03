@@ -1,8 +1,8 @@
 # UA-Stache-API
-Allows the caller to easily get "secret" information from stache entries at [https://stache.arizona.edu].
+Allows the caller to easily get "secret" information from entries in [Stache](https://stache.arizona.edu).
 
 ## Motivation
-To make a python API that could generically get information from stache.
+To make a python API that could generically get information from Stache.
 
 ## Code Example
 ```python
@@ -20,7 +20,7 @@ Where file_name is the name of file with content such as:
 }
 ```
 
-stache secret must be a JSON-able dictionary that can be nested.
+Stache secret must be a JSON-able dictionary that can be nested.
 
 ## Installation
 pip install --user ua-stache-api
